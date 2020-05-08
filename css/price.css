@@ -2,11 +2,12 @@
   max-width: 1020px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 50px;
 }
 
 .price .panel {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(136, 136, 136, 0.2);
-  box-shadow: 0px 0px 10px 0px rgba(136, 136, 136, 0.2);
+  box-shadow: 0px 0px 15px 10px rgb(88, 93, 136);
   padding-top: 25px;
   padding-bottom: 40px;
   border-radius: 5px;
