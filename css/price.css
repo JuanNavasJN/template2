@@ -1,0 +1,64 @@
+.price__panel-wrapper {
+  max-width: 1020px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price .panel {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(136, 136, 136, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(136, 136, 136, 0.2);
+  padding-top: 25px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  background-color: #fff;
+}
+
+.price__title {
+  font-size: 22px !important;
+  color: #313131 !important;
+  letter-spacing: 3px !important;
+  font-weight: bold !important;
+}
+
+.price__ammount {
+  font-size: 18px !important;
+  color: #4f4f4f !important;
+  font-weight: bold !important;
+}
+
+.price__ammount--number {
+  font-size: 40px;
+}
+
+.price .panel-body p {
+  font-size: 16px;
+  color: #7d7d7d;
+}
+
+.price .panel:hover {
+  background-color: rgba(41, 35, 95, 0.9);
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.price .panel:hover .panel__button {
+  -webkit-box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13) !important;
+  box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13) !important;
+}
+
+.price .panel:hover h4,
+.price .panel:hover h1,
+.price .panel:hover p {
+  color: #fff !important;
+}
+
+.price .panel:hover .panel__button {
+  background-color: #ffffff !important;
+  color: #191e20 !important;
+  border: 2px solid #fff !important;
+}
