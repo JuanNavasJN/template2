@@ -779,7 +779,7 @@ input[type="checkbox"] {
 /*    04. Header     */
 /*********************/
 .header {
-  /*url("../images/banner5.png") center center no-repeat;*/
+  background: url("../images/inicio.png") center center no-repeat;
   background-color: #000000;
   background-size: cover;
 }
