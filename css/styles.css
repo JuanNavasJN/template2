@@ -779,13 +779,13 @@ input[type="checkbox"] {
 /*    04. Header     */
 /*********************/
 .header {
-  background: url("../images/inicio.png") center center no-repeat;
+  background: url("../images/inicio5.png") center center no-repeat;
   background-color: #000000;
   background-size: cover;
 }
 
 .header .header-content {
-  padding-top: 8.5rem;
+  padding-top: 8rem;
   padding-bottom: 7rem;
   text-align: center;
 }
@@ -876,9 +876,10 @@ input[type="checkbox"] {
 /*     05. Features     */
 /************************/
 .tabs {
-  padding-top: 6.375rem;
+  padding-top: 0.375rem;
   padding-bottom: 6.875rem;
   background-color: rgb(0, 0, 0);
+  background: url("../images/fondo3.png") center center no-repeat;
   background-size: cover;
 }
 
@@ -1128,7 +1129,7 @@ input[type="checkbox"] {
 /*     09. Details 1     */
 /*************************/
 .basic-2 {
-  padding-top: 6.375rem;
+  padding-top: 0.375rem;
   padding-bottom: 6.875rem;
   background: url(../images/basic1.png) center center no-repeat;
   background-color: #00112bff;
@@ -1619,7 +1620,7 @@ a:hover.back-to-top {
 
   /* Header */
   .header .header-content {
-    padding-top: 11rem;
+    padding-top: 8rem;
   }
   /* end of header */
 
@@ -1782,7 +1783,7 @@ a:hover.back-to-top {
 
   /* Header */
   .header .header-content {
-    padding-top: 13rem;
+    padding-top: 8rem;
     padding-bottom: 10rem;
     text-align: left;
   }
@@ -1951,6 +1952,19 @@ a:hover.back-to-top {
   .header .text-container {
     margin-top: 7.5rem;
     margin-left: 2.5rem;
+  }
+
+  .img-logo-broker {
+    width: 300px;
+    height: auto;
+  }
+  .broker {
+    background-color: #fff;
+    padding: 5% 5% 5% 0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
 
   .header .image-container {
