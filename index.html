@@ -69,7 +69,7 @@
 
       <!-- Image Logo -->
       <a class="navbar-brand logo-image" href="index.html"
-        ><img src="./images/Logo-uno.png"
+        ><img src="./images/Logo.png"
       /></a>
 
       <!-- Mobile Menu Toggle Button -->
@@ -160,10 +160,8 @@
                     >Consistency is key, RELIABLE, LUCRATIVE</span
                   >
                 </h1>
-                <a class="btn-solid-lg page-scroll" href="##details">PRICING</a>
-                <a class="btn-solid-lg page-scroll" href="#your-link"
-                  >CONTACT</a
-                >
+                <a class="btn-solid-lg page-scroll" style="color: white !important;" href="#details">PRICING</a>
+                <a class="btn-solid-lg page-scroll" style="color: white !important;" href="#contact">CONTACT</a>
               </div>
             </div>
             <!-- end of col -->
@@ -374,7 +372,7 @@
           <!-- end of tabs content -->
         </div>
         <!-- end of row -->
-        <div class="tabs-content-text" style="margin-top: 40px;">
+        <div class="tabs-content-text" style="margin-top: 100px;">
           <img src="./images/grafic.jpeg" />
         </div>
       </div>
@@ -413,9 +411,14 @@
                       <p>Full statistics</p>
                     </div>
                     <div>
-                      <a class="btn-solid-lg page-scroll" href="#"
-                        >GET THIS PLAN</a
+                      <button
+                        type="button"
+                        class="btn-solid-lg page-scroll"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
                       >
+                        GET THIS PLAN
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -436,9 +439,46 @@
                       <p>Full statistics</p>
                     </div>
                     <div>
-                      <a class="btn-solid-lg page-scroll" href="#"
-                        >GET THIS PLAN</a
+                      <button
+                        type="button"
+                        class="btn-solid-lg page-scroll"
+                        data-toggle="modal"
+                        data-target="#exampleModal"
                       >
+                        GET THIS PLAN
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" style="color: black !important;" id="exampleModalLabel">
+                          Payment Methods
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div id="paypal-button-container"></div>
+                      </div>
+                      <div class="modal-footer">
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -807,5 +847,31 @@
     <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script>
     <!-- Custom scripts -->
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal',
+          
+      },
+      createOrder: function(data, actions) {
+          return actions.order.create({
+              purchase_units: [{
+                  amount: {
+                      value: '1'
+                  }
+              }]
+          });
+      },
+      onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+      }
+  }).render('#paypal-button-container');
+</script>
   </body>
 </html>
