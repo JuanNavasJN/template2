@@ -1584,7 +1584,8 @@ a:hover.back-to-top {
   .navbar-custom {
     padding: 1.125rem 5rem 1.125rem 5rem;
     box-shadow: none;
-    background: #000000;
+    background: url(../images/nav.png) center center no-repeat;
+    background-size: cover;
   }
 
   .navbar-custom .navbar-brand.logo-text {
@@ -1607,7 +1608,7 @@ a:hover.back-to-top {
 
   .navbar-custom.top-nav-collapse {
     padding: 0.5rem 1.5rem 0.5rem 2rem;
-    background-color: #000000e3;
+    background-color: transparent !important;
   }
 
   .navbar-custom.top-nav-collapse .navbar-brand.logo-text {
