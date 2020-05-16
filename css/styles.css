@@ -1824,9 +1824,45 @@ a:hover.back-to-top {
     box-shadow: 0 0 15px 10px #4185bb;
   }
 
+  .tabs {
+    padding-top: 0px;
+    padding-bottom: 0rem;
+    background-color: rgb(0, 0, 0);
+    background: url(../images/fondo3.png) center center no-repeat;
+    background-size: cover;
+  }
   .nav-tabs .nav-item {
     margin-bottom: 12px;
     margin-right: 10px !important;
+  }
+
+  .tabs #tab-1 .card.left-pane .text-wrapper {
+    width: 70%;
+  }
+
+  .tabs .card .card-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .tabs .card .card-icon .fas,
+  .tabs .card .card-icon .far {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+
+  .tabs .card-body {
+    padding: 0rem 0 1rem 0;
+  }
+  .tabs .tab-content {
+    width: 100%;
+    height: 500px;
+  }
+
+  .text {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    text-align: center !important;
   }
 }
 /* end of min-width width 768px */
