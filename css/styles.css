@@ -64,7 +64,7 @@ p {
 
 h1 {
   color: #f1f1f8;
-  font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+  font: 700 42px/42px "Montserrat", sans-serif;
 }
 
 h2 {
@@ -910,9 +910,6 @@ input[type="checkbox"] {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  box-shadow: -28px 13px 60px -10px rgba(57, 83, 130, 0.74),
-    20px -10px 60px -10px rgba(0, 104, 171, 0.8),
-    64px 22px 60px -15px rgba(0, 53, 202, 0.8);
 }
 
 .tabs h2 {
@@ -1619,7 +1616,7 @@ a:hover.back-to-top {
   }
 
   h1 {
-    font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
+    font: 700 42px/42px "Montserrat", sans-serif;
   }
   /* end of general styles */
 
@@ -2012,7 +2009,7 @@ a:hover.back-to-top {
 
   /* Header */
   .header .text-container {
-    margin-top: 4.5rem;
+    margin-top: 8.5rem;
     margin-left: 2.5rem;
   }
 

@@ -45,9 +45,6 @@
 
 .price .panel:hover .panel__button {
   -webkit-box-shadow: 2.5px 4.33px 10px 0px rgb(5, 87, 155) !important;
-  box-shadow: 2.5px 4.33px 10px 0px rgb(5, 87, 155) !important;
-  background-color: rgb(5, 87, 155) !important;
-  color: white !important;
 }
 
 .price .panel:hover h4,
