@@ -1170,8 +1170,8 @@ input[type="checkbox"] {
 
 .details-content {
   background: linear-gradient(
-    rgba(0, 0, 0, 1) 0%,
-    rgba(64, 64, 64, 0) 13%,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(64, 64, 64, 0) 20%,
     rgba(0, 0, 0, 1) 110%,
     rgba(0, 0, 0, 1) 0%
   );
@@ -1403,8 +1403,8 @@ input[type="checkbox"] {
 
 .form-content {
   background: linear-gradient(
-    rgba(0, 0, 0, 1) 0%,
-    rgba(64, 64, 64, 0) 22%,
+    rgba(0, 0, 0, 1) 14%,
+    rgba(64, 64, 64, 0) 26%,
     rgba(0, 0, 0, 1) 99%,
     rgba(0, 0, 0, 1) 100%
   );
