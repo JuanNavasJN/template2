@@ -1609,6 +1609,11 @@ a:hover.back-to-top {
 /* Min-width width 768px */
 @media (max-width: 768px) and (min-width: 320px) {
   /* General Styles */
+  .header .text-container {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
   .p-heading {
     width: 85%;
     margin-right: auto;
@@ -1815,13 +1820,15 @@ a:hover.back-to-top {
   /* end of extra pages */
   .btn-solid-lg {
     display: inline-block;
-    padding: 1.375rem 1.625rem 1.375rem 1.625rem;
+    padding: 20px;
     border: 0.125rem solid #fff;
     border-radius: 2rem;
     font: 700 0.75rem/0 "Montserrat", sans-serif;
     text-decoration: none;
     transition: all 0.2s;
     box-shadow: 0 0 15px 10px #4185bb;
+    width: 120px;
+    text-align: center;
   }
 
   .tabs {
