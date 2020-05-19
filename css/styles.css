@@ -1685,6 +1685,7 @@ a:hover.back-to-top {
     width: 180px;
     height: auto;
     padding-bottom: 30px;
+    margin-left: 80px;
   }
   .broker {
     margin-top: 80px;
@@ -2102,6 +2103,7 @@ a:hover.back-to-top {
   .img-logo-broker {
     width: 180px;
     height: auto;
+    margin-left: 80px;
   }
   .broker {
     margin-top: 80px;
