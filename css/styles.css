@@ -144,7 +144,7 @@ a.white {
   font: 700 0.75rem/0 "Montserrat", sans-serif;
   text-decoration: none;
   transition: all 0.2s;
-  box-shadow: 0 0 34px 0px #4185bb;
+  box-shadow: 0 0 14px 0px #4185bb;
 }
 
 .btn-solid-lg:hover {
@@ -1685,7 +1685,6 @@ a:hover.back-to-top {
     width: 280px;
     height: auto;
     padding-bottom: 30px;
-    margin-left: 0px;
   }
   .broker {
     /* background-color: #fff; */
@@ -1824,7 +1823,7 @@ a:hover.back-to-top {
     font: 700 9px "Montserrat", sans-serif;
     text-decoration: none;
     transition: all 0.2s;
-    box-shadow: 0 0 25px 5px #4185bb;
+    box-shadow: 0 0 14px 0px #4185bb;
     width: 120px;
     text-align: center;
   }
@@ -2097,13 +2096,14 @@ a:hover.back-to-top {
   }
 
   .img-logo-broker {
-    width: 380px;
+    width: 280px;
     height: auto;
-    margin-left: 80px;
+    margin-left: 20px;
   }
   .broker {
-    /* background-color: #fff; */
-    padding: 2% 1% 1% 30px;
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 2% 1% 1% 50px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
