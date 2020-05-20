@@ -1687,7 +1687,7 @@ a:hover.back-to-top {
     padding-bottom: 30px;
   }
   .broker {
-    /* background-color: #fff; */
+    background-color: #f3f3f3;
     padding: 5% 1% 1% 10px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
@@ -2102,7 +2102,7 @@ a:hover.back-to-top {
   }
   .broker {
     margin-top: 80px;
-    background-color: #fff;
+    background-color: #f3f3f3;
     padding: 2% 1% 1% 50px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
