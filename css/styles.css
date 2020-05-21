@@ -2211,7 +2211,8 @@ a:hover.back-to-top {
 
   /* Footer */
   .footer .footer-col {
-    width: 90%;
+    width: 100%;
+    text-align: justify;
   }
 
   .footer .footer-col.middle {
