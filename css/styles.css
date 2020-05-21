@@ -36,7 +36,7 @@ html {
 body,
 p {
   color: #f1f1f8;
-  font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+  font: 400 16px/1.375rem "Open Sans", sans-serif;
 }
 
 .p-large {
@@ -890,7 +890,7 @@ input[type="checkbox"] {
 }
 
 .features-content {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 100px;
   background: linear-gradient(
     rgba(0, 0, 0, 1) 0%,
@@ -923,7 +923,7 @@ input[type="checkbox"] {
 
 .tabs .nav-tabs {
   margin-right: auto;
-  margin-bottom: 6.5rem;
+  margin-bottom: 2.5rem;
   margin-left: auto;
   justify-content: center;
   border-bottom: none;
@@ -2101,7 +2101,7 @@ a:hover.back-to-top {
     margin-left: 20px;
   }
   .broker {
-    margin-top: 80px;
+    margin-top: 120px;
     background-color: #f3f3f3;
     padding: 2% 1% 1% 50px;
     border-bottom-right-radius: 20px;
@@ -2118,7 +2118,7 @@ a:hover.back-to-top {
   .tabs {
     padding-bottom: 6.5rem;
     padding-top: 0px;
-    height: 1200px;
+    height: 1100px;
   }
 
   .tabs #tab-1 .card.first {
@@ -2246,4 +2246,14 @@ a:hover.back-to-top {
 
 .modal-content {
   border-radius: 1.3rem !important;
+}
+
+/* Features*/
+.div-content {
+  padding-top: 30px;
+}
+
+.img-features {
+  width: 50px;
+  margin-left: 150px;
 }
