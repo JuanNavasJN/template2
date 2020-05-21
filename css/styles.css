@@ -362,7 +362,7 @@ input[type="checkbox"] {
 
 .form-control-submit-button {
   display: inline-block;
-  width: 100%;
+  width: 40%;
   height: 3.125rem;
   border: 1px solid #fff;
   border-radius: 1.5rem;
@@ -372,6 +372,7 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 0 0 15px 10px #052c4bff;
+  margin-left: 150px;
 }
 
 .form-control-submit-button:hover {
