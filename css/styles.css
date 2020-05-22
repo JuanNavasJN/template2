@@ -372,6 +372,7 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 0 0 15px 10px #052c4bff;
+  margin-top: 40px;
 }
 
 .form-control-submit-button:hover {
