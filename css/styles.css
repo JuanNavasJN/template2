@@ -903,7 +903,7 @@ input[type="checkbox"] {
 .tabs-content-text {
   font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
   text-align: justify;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   font-size: 18px;
   color: white;
   padding: 5% 5% 5% 64px;
@@ -960,7 +960,7 @@ input[type="checkbox"] {
 .tabs .tab-content {
   width: 100%; /* for proper display in IE11 */
   height: 250px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .tabs .card {
@@ -969,7 +969,7 @@ input[type="checkbox"] {
 }
 
 .tabs .card-body {
-  padding: 1rem 0 0rem 0;
+  padding: 0rem 0 0rem 0;
 }
 
 .tabs .card-title {
@@ -1407,9 +1407,10 @@ input[type="checkbox"] {
   background: linear-gradient(
     rgba(0, 0, 0, 1) 20%,
     rgba(64, 64, 64, 0) 72%,
-    rgba(0, 0, 0, 1) 99%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(64, 64, 64, 0) 84%,
+    rgba(0, 0, 0, 1) 95%
   );
+  padding-bottom: 80px;
 }
 
 .form h2 {
@@ -1977,7 +1978,7 @@ a:hover.back-to-top {
 
   /* Features */
   .tabs .card-body {
-    padding: 1rem 0 0rem 0;
+    padding: 0rem 0 0rem 0;
   }
 
   .tabs #tab-1 .card.left-pane {
@@ -2263,6 +2264,7 @@ a:hover.back-to-top {
 
   .footer .footer-col.last {
     text-align: center;
+    padding-top: 20px;
   }
   /* end of footer */
 
@@ -2302,7 +2304,7 @@ a:hover.back-to-top {
 }
 .p-features {
   color: #f1f1f8;
-  font: 400 14px/1.375rem "Open Sans", sans-serif;
+  font: 400 16px/1.375rem "Open Sans", sans-serif;
   width: 79%;
   margin-left: 5px;
 }
