@@ -263,19 +263,10 @@
     var name = $("#cname").val();
     var email = $("#cemail").val();
     var message = $("#cmessage").val();
-    var terms = $("#cterms").val();
     $.ajax({
       type: "POST",
-      url: "php/mail.php",
-      data:
-        "name=" +
-        name +
-        "&email=" +
-        email +
-        "&message=" +
-        message +
-        "&terms=" +
-        terms,
+      url: "./php/mail.php",
+      data: "name=" + name + "&email=" + email + "&message=" + message,
       success: function (text) {
         if (text == "success") {
           cformSuccess();
