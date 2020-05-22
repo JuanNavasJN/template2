@@ -372,7 +372,6 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 0 0 15px 10px #052c4bff;
-  margin-left: 150px;
 }
 
 .form-control-submit-button:hover {
@@ -1399,7 +1398,7 @@ input[type="checkbox"] {
 .form {
   padding-top: 0px;
   padding-bottom: 0px;
-  background: url(../images/banner10.jpg) center center no-repeat;
+  background: url(../images/1.jpeg) center center no-repeat;
   background-size: cover;
 }
 
