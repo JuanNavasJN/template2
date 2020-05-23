@@ -1,16 +1,18 @@
 <?php
 $to ='PandaPipsEA@gmail.com';
-$subject = "Contacto de ". $_POST['cemil'];
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
- 
+$subject = "Contacto de <". $_POST['email'] .">";
+$headers =  'MIME-Version: 1.0' . "\r\n"; 
+$headers .= 'From: Your name' . $_POST['email'] . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
+
 $message = "
 <html>
 <head>
 <title>PandaPipsEA MAIL</title>
 </head>
 <body>
-<h1>Esto es un H1</h1>
-<p>".$_POST['cmessages']."</p>
+<h1>Nombre: ".$_POST['name']."</h1>
+<p>".$_POST['message']."</p>
 </body>
 </html>";
  

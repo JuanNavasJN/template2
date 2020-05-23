@@ -268,6 +268,7 @@
       url: "./php/mail.php",
       data: "name=" + name + "&email=" + email + "&message=" + message,
       success: function (text) {
+        console.log("aquí");
         if (text == "success") {
           cformSuccess();
         } else {
